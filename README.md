@@ -4,7 +4,7 @@
 # is assumed to be a local file in working directory
 datasets:
     - url: names.csv
-      enabled: true
+      enabled: false
       type: text/csv
     - id: mdd
       enabled: false
@@ -13,8 +13,8 @@ datasets:
     - url: https://example.org/data.tsv
       enabled: false
       type: text/tab-separated-values
-    - url: https://serv.biokic.asu.edu/ecdysis/content/dwca/UCSB-IZC_DwC-A.zip
-      enabled: false
+    - url: https://scan-bugs.org/portal/content/dwca/UT-UTBFL_DwC-A.zip
+      enabled: true
       type: application/dwca
     - url: https://scan-bugs.org:443/portal/webservices/dwc/rss.xml 
       enabled: false
